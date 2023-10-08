@@ -1,12 +1,10 @@
 import React from 'react';
+import './Home.css';
 import Button from 'react-bootstrap/Button';
 import Carousel from 'react-bootstrap/Carousel';
 import image from '../../assets/images/Background/wine-glass pic1.jpg'
 import imageTwo from '../../assets/images/Background/wine-glass2.jpg';
 import imageThree from '../../assets/images/Background/wine3.jpg';
-
-// import ExampleCarouselImage from './components/ExampleCarouselImage';
-
 
 
 const Home = () => {
@@ -20,7 +18,7 @@ const Home = () => {
         <Carousel.Item interval={1000}>
           <img src={image} alt="" />
           <Carousel.Caption>
-            <h3>First slide label</h3>
+            <h3 className='title'>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
