@@ -11,15 +11,15 @@ const Home = () => {
 
   return (
     <div className='home'>
-      <Button variant="primary">Primary</Button>
-      <br />
-      <br />
+      
       <Carousel>
+     
         <Carousel.Item interval={1000}>
           <img src={image} alt="" />
           <Carousel.Caption>
             <h3 className='title'>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            {/* <Button className='btn' variant="primary">Primary</Button> */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={500}>

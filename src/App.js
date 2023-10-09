@@ -8,6 +8,7 @@ import image from './assets/images/Background/wine-glass pic1.jpg'
 function App() {
   return (
     <div >
+      <h1>hello</h1>
       <Home></Home>
 
       <br />
